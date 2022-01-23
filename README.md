@@ -1,3 +1,5 @@
+migrated to personal github on 1/23
+
 # global-dev
 https://data.worldbank.org/indicator is the source for all data
 climate change and economic development
