@@ -26,9 +26,9 @@ app.layout = html.Div([html.Div([html.H1("World Bank Economic and Climate Change
                                            style={"text-align": "right", "width": "40%", "padding-top": 5}),
                                  dcc.Dropdown(id="value-selected", value='Electricity_2018',
                                               options=[{'label': "Access to electricity (% of population) - 2018", 'value': 'Electricity_2018'},
-                                                       {'label': "Mortality rate, under-5 (per 1,000  live births) - 2018", 'value': 'Mortality_2018'}
-                                                       {'label': "GDP per capita (current $USD) - 2020", 'value': 'gdppc_2020'}
-                                                       {'label': "Electricity Consumption (kWh per capita) - 2014", 'value': 'Electr_Cons_2014'}
+                                                       {'label': "Mortality rate, under-5 (per 1,000  live births) - 2018", 'value': 'Mortality_2018'},
+                                                       {'label': "GDP per capita (current $USD) - 2020", 'value': 'gdppc_2020'},
+                                                       {'label': "Electricity Consumption (kWh per capita) - 2014", 'value': 'Electr_Cons_2014'},
                                                        {'label': "CO2 emissions (metric tons per capita) - 2018", 'value': 'CO2percap_2018'}],
                                               style={"display": "block", "margin-left": "auto", "margin-right": "auto",
                                                      "width": "100%"},
